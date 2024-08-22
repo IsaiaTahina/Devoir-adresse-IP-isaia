@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP ADDRESS</title>
+    <link rel="stylesheet" href="ip.css">
+    <style>
+    .a1{
+        color: aliceblue;
+        font-size: 25px;
+    }
+    .p1{
+        width: 50%;
+        height: auto;
+        padding: 5px 5px;
+        background-color: rgb(115, 74, 52);
+         padding-left: 10px;
+        position: relative;
+        left: 50%;
+        border-radius: 4px;
+        text-align: center;
+        transform: translateX(-50%); 
+        margin-bottom: 20px;
+    }
+ 
+    .p1:hover{
+        background-color: rgb(115, 74, 52);
+    }
+    .p2{
+        width: 75%;
+        height: auto;
+        padding: 7px 5px;
+        background-color: rgb(219, 139, 97);
+         padding-left: 10px;
+        position: relative;
+        left: 50%;
+        border-radius: 4px;
+        text-align: center;
+        color: black;
+        text-decoration-line:underline;
+        text-transform: uppercase;
+        transform: translateX(-50%); 
+        margin-bottom: 20px;
+        font-size: 23px;
+    }
+    </style>
+</head>
+<!-- 22-08-24 -->
+<body>
+   
+    <p class="p2"> <b>💻 Ip  Address Classification📱</b></p>
+    <div class="form">
+        <form action="ip.cgi" method="get"> 
+        <p><input type="text" name="ip" id="LOG" required placeholder="Your ip address"></p>
+
+        <p><input type="submit" value="Envoyer" class="retour sub"></p>
+        <p><input type="reset" value="Effacer" class="retour res"></p>
+       
+        </form>
+    </div>
+</body>
+</html>
